@@ -1,0 +1,18 @@
+./tips_parse 1-hello.pas | diff - 1-hello.correct
+./tips_parse 2-areas.pas | diff - 2-areas.correct
+./tips_parse 3-bad_prog.pas | diff - 3-bad_prog.correct
+./tips_parse 4-if_convert.pas | diff - 4-if_convert.correct
+./tips_parse 5-multiples.pas | diff - 5-multiples.correct
+./tips_parse 6-lotsovar.pas | diff - 6-lotsovar.correct
+./tips_parse 7-bmi_calc.pas | diff - 7-bmi_calc.correct
+./tips_parse 8-mult_table.pas | diff - 8-mult_table.correct
+./tips_parse 9-input_test.pas | diff - 9-input_test.correct
+./tips_parse 10-threedim.pas | diff - 10-threedim.correct
+./tips_parse 11-divisors.pas | diff - 11-divisors.correct
+./tips_parse 12-not_sample.pas | diff - 12-not_sample.correct
+
+/parse 8-mult_table.pas | diff -y 8-mult_table.correct -
+
+./tips_parse 4-if_convert.pas | diff - 4-if_convert.correct
+./tips_parse 8-mult_table.pas | diff - 8-mult_table.correct
+./tips_parse 12-not_sample.pas | diff - 12-not_sample.correct
